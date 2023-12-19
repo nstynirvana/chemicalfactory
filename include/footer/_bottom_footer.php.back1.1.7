@@ -1,0 +1,6 @@
+<?$APPLICATION->IncludeComponent("aspro:theme.allcorp3", "", array('SHOW_TEMPLATE' => 'Y'), false, ['HIDE_ICONS' => 'Y']);?>
+<?if (isset($GLOBALS['SECTION_BNR_CONTENT']) && $GLOBALS['SECTION_BNR_CONTENT'] === true):?>
+    <?\Aspro\Allcorp3\Functions\Extensions::init('logo_depend_banners');?>
+    <script>if (typeof logo_depend_banners === 'function') logo_depend_banners();</script>
+<?endif;?>    
+<?@include_once('bottom_footer_custom.php');?>

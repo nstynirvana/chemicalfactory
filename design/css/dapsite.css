@@ -1,0 +1,39 @@
+.contacts__desc h2
+{
+    font-size: 1.46667em;
+    line-height: calc(1em + 7px);
+    margin: 0 0 18px 0;
+}
+
+.line-block__item .logo
+{
+    max-width: 212px;
+}
+
+.sections-list__item-image.rounded
+{
+    border-radius: unset;
+}
+
+.sections-list__item-image-wrapper .sections-list__item-image
+{
+    background-position: top;
+}
+
+.catalog-detail__garanty.block-with-icon
+{
+    display: none;
+}
+
+@media (max-width: 340px)
+{
+    .mobileheader__item--right-icons .line-block
+    {
+        justify-content: flex-end;
+    }
+
+    .mobileheader__item--right-icons .line-block>.line-block__item
+    {
+        padding-left: 10px;
+    }
+}
