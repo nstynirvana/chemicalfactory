@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="958e4d2e-bb02-40e0-91c9-ae0eda354ae9" name="chemicalfactory" url="http://5.23.50.61">
+        <fileTransfer rootFolder="/public_html/" host="5.23.50.61" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

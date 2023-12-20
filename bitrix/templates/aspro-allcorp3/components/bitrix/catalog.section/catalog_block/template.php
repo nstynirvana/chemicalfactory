@@ -345,13 +345,15 @@
 								<?if ($arItem['SECTIONS']):?>
 									<div class="catalog-block__info-section color_999 font_12 linecamp-2"><?=implode('/', $arItem['SECTIONS'])?></div>
 								<?endif;?>
-								<div class="catalog-block__info-inner">
+                                <?echo "<pre style=display:none;>"; print_r($arItem); echo "</pre>";?>
+                                <div class="catalog-block__info-inner">
 									<?// element title?>
 									<div class="catalog-block__info-title linecamp-4 height-auto-t600 font_16">
 										<?if ($bUseSchema):?>
 											<link itemprop="url" href="<?=$arItem['DETAIL_PAGE_URL']?>">
 										<?endif;?>
 										<a href="<?=$arItem["DETAIL_PAGE_URL"]?>" class="dark_link switcher-title js-popup-title"><span><?=$elementName;?></span></a>
+                                        <span class="catalog-block__info-section color_999 font_12 linecamp-2"><?=$arItem['PROPERTIES']['PRODUCT_ASSIGNMENT']['VALUE']?></span>
 									</div>
 									<?if (strlen($status) || strlen($article)):?>
 										<div class="catalog-block__info-tech compact-hidden-t600">
